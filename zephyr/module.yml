@@ -1,1 +1,4 @@
-
+name: zmk-keyboards-desolation
+build:
+  settings:
+     board_root: .
