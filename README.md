@@ -29,3 +29,4 @@ manifest:
   self:
     path: config
 ```
+Once you have the module added to your west.yml you can then build firmware as if it was in your config's shield directory or in ZMK main.
