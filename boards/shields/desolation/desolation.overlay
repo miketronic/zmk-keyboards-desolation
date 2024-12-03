@@ -41,7 +41,6 @@
             , <&pro_micro 4 (GPIO_ACTIVE_HIGH)> // COL9
             , <&gpio1 1     (GPIO_ACTIVE_HIGH)> // COL10
             , <&gpio1 2     (GPIO_ACTIVE_HIGH)> // COL11
-            , <&pro_micro 4 (GPIO_ACTIVE_HIGH)> // COL11
             ;
         row-gpios
             = <&pro_micro 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // ROW0
