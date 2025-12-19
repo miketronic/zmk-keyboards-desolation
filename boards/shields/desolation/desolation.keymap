@@ -489,7 +489,7 @@
         MACRO_layer {
             display-name = "MACRO";
             bindings = <
-                &none &none &none  &none  &none        &bt BT_NXT &bt BT_PRV &bt BT_CLR &none &none &kp A &kp A
+                &none &none &none  &none  &none        &bt BT_NXT &bt BT_PRV &bt BT_CLR_ALL &none &none &kp A &kp A
                 &none &none &trans &lines &square      &none      &none      &none      &none &none &kp B &kp B
                 &none &none &none  &date  &time        &th        &re        &yw        &none &none &kp C &kp C
                                 &kp TAB LSPC LSPC  RENT    RENT &kp DEL                             &kp D &kp D &kp E &kp E
