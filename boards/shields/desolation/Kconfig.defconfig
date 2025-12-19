@@ -6,4 +6,10 @@ if SHIELD_DESOLATION
 config ZMK_KEYBOARD_NAME
     default "Desolation"
 
+config ZMK_POINTING
+    default y
+
+config SPI
+    default y
+
 endif
