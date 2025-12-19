@@ -4,14 +4,17 @@
  * Desolation v4
  */
 
+#include "desolation.dtsi"
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
-#include <dt-bindings/zmk/keys.h>
-#include <zephyr/dt-bindings/input/input-event-codes.h>
-#include "desolation.dtsi"
 
 / {
-    kscan0: kscan {
+
+    chosen {
+        zmk,kscan = &default_kscan;	
+    };
+
+    default_kscan: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
         wakeup-source;
