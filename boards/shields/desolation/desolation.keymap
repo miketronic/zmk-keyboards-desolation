@@ -449,10 +449,10 @@
         ALPHA_layer {
             display-name = "DESO";  
             bindings = <
-                &none &none  &kp W &kp F NUMG     &kp M &kp L &kp U   &none &none &kp A &kp A
-                &none &none  MACA  &kp R SYMS     &kp N &kp E &kp I   &none &none &kp B &kp B
-                &none &none  FUNC  SNPD  TTB      MSEH  &kp O &kp Y   &none &none &kp C &kp C
-                                &kp TAB LSPC LSPC  RENT   RENT  &kp BSPC          &kp D &kp D &kp E &kp E
+                &none &none  &kp W &kp F NUMG     &kp M &kp L &kp U   &none &none
+                &none &none  MACA  &kp R SYMS     &kp N &kp E &kp I   &none &none
+                &none &none  FUNC  SNPD  TTB      MSEH  &kp O &kp Y   &none &none
+                                &kp TAB LSPC LSPC  RENT   RENT  &kp BSPC   &kp A &kp A   &kp B &kp B &kp C &kp C   &kp D &kp D &kp E &kp E
             >;
         };
 
