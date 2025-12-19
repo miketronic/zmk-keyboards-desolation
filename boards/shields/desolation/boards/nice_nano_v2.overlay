@@ -37,7 +37,6 @@
 
 
 #include <zephyr/dt-bindings/input/input-event-codes.h>
-#include <behaviors/input_gestures_accel.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
