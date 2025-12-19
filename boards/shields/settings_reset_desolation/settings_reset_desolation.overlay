@@ -8,9 +8,6 @@
 
 / {
 
-	chosen {
-		zmk,physical-layout = &layout_desolation;
-	};
    
 	default_transform: keymap_transform_0 {
 		compatible = "zmk,matrix-transform";
