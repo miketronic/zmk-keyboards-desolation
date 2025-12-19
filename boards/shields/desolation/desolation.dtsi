@@ -6,6 +6,7 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <physical_layouts.dtsi>
+#include <input/processors.dtsi>
 
 / {
 	chosen {
@@ -32,7 +33,7 @@
 		compatible = "zmk,physical-layout";
 		display-name = "desolation";
 		transform = <&default_transform>;
-		kscan = <&kscan0>;
+		kscan = <&default_kscan>;
 		
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0    0       0     0     0>
